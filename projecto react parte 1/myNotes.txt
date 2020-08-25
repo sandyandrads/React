@@ -1,0 +1,16 @@
+1º executei npx create-react-app.
+2º não instalei nvm como o professor indicou no curso!
+3º subimos com npm start na portal 3000.
+4º limpamos a pasta com aquilo que não iriamos usar (app.css, app.teste.js, logo.svg,serviceWorker.js,setupTest.js).
+5º cometi algumas vezes anteriormente o erro de não inserir dentro do return do meu componente, se houver alguem erro, devo me certificar disto novamente.
+6º não é html é JSX. sempre lembrar isto.
+7º encapsular elementos filhos em um único elemento pai, se não, erro 
+8º no projeto anterior utilizei export default no final do component, desta vez a metologia empregada foi outra.
+9º instalei um plugin no vscode chamado simples react snippers, algo assim, com os comandos imrc (importa react e o component), cc (a classe)
+10º Array.of irá passar pelo nosso array, além disto neste caso, não esquecer da variavel entre {} do contrário ele irá reconhecer como string.
+11º A key serve justamente para orientar o react de qual objeto ele deve redesenhar, para não ter o retrabalho de redesenhar todos.
+12º Novamente não esquecer a necessidade do super() quando utilizamos o constructor()
+13º Devo utilizar o BIND para fazer associação dos objetos da instancia. (erro 'this is undefined')
+14º Para passar minhas informações obtidas no formulário para minha lista de notas, devemos trabalhar com o unico objeto que temos em comum, ou seja, App.js
+15º Para ter acesso a propriedade utilizamos props pelo construtor e nosso super, além claro da função que carregara os dados, neste caso, criarNota.
+16º Depois precisamos atualizar nosso elemento cardNota no listaDeNotas passando as propriedades e por ultimo atualizar o cardNota tmb com as propriedades.
